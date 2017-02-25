@@ -1,0 +1,62 @@
+body {
+  font-size: 30px;
+  font-family: sans-serif;
+  background-color:#000000;
+}
+a {
+  padding: 2px 0px;
+  color: inherit;
+  text-decoration: inherit;
+  display: block;
+}
+a:hover > :first-child {
+  opacity: 100;
+}
+a > :first-child {
+  opacity: 0;
+  transition: opacity 1s;
+}
+/*
+OR... targets every span that is the first-child of its parent
+span:first-child {
+  display: none;
+}
+*/
+.container {
+  margin: 10vh 10vw;
+}
+.header {
+  text-align: right;
+  color: #4FC3F7;
+}
+.projects {
+  display: flex;
+  margin: 10vh 0vh;
+  color: #03A9F4;
+}
+.title {
+  width: 15%;
+}
+.links {
+  font-size: .8em;
+  margin-top: 5%;
+  color: #81D4FA;
+}
+.description {
+  font-size: .5em;
+}
+
+
+/*
+500 #03A9F4
+50#E1F5FE
+100#B3E5FC
+200#81D4FA
+300#4FC3F7
+400#29B6F6
+500#03A9F4
+600#039BE5
+700#0288D1
+800#0277BD
+900#01579B
+*/
